@@ -1,0 +1,26 @@
+{
+  "name": "cwp-34",
+  "version": "1.0.0",
+  "description": "The thirtieth fourth laboratory work on Cross Platform Programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "joi": "^13.1.2",
+    "lru-cache": "^4.1.1",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.33.4",
+    "winston": "^2.4.0"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.0.1",
+    "supertest": "^3.1.0"
+  },
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "node"
+  }
+}
